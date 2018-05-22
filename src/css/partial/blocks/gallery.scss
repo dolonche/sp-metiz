@@ -1,0 +1,8 @@
+.gallery{
+  @extend %container;
+  padding-top: 25px;
+  padding-bottom: 85px;
+  &__wrapper{
+    background-color: #EEE;
+  }
+}

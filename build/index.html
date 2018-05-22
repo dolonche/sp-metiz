@@ -2,17 +2,110 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/styles.min.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
-<body>
-	<header>
-	  <div>🍊🗝️</div>
-	</header>
-	<!-- body -->
-	
+<body class="page">
+  <header class="page-header">
+    <div class="page-header__top-wrapper">
+      <div class="page-header__top">
+        <div class="page-header__top-logo">sp-metiz</div>
+        <div class="page-header__top-contacts">
+          <div class="page-header__top-contacts-mail"><img src="img/mail.svg" alt="почта"><a href="mailto:info@sp-metiz.ru">info@sp-metiz.ru</a>
+          </div>
+          <div class="page-header__top-contacts-tel"><img src="img/phone.svg" alt="телефон"><a href="tel:+74993431291">+7 (499) 343-12-91</a></div>
+          <div class="page-header__top-contacts-address"><img src="img/home.svg" alt="контакты">г. Подольск, ул.Орджоникидзе 23
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-header__bottom-wrapper">
+      <div class="page-header__bottom">
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__list-item"><a href="">О компании</a></li>
+            <li class="main-nav__list-item"><a href="">Продукция</a></li>
+            <li class="main-nav__list-item"><a href="">Цены и прайс</a></li>
+            <li class="main-nav__list-item"><a href="">Применение в строительстве</a></li>
+            <li class="main-nav__list-item"><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="slider">
+    <div class="owl-carousel owl-theme slider__main">
+      <div class="item slider__main-item">
+        <img src="img/slider-pic-1.jpg" alt="">
+        <p class="slider__main-item-text">Наша компания занимается производством и продажей металлической сетки всех типов и размеров.</p>
+      </div>
+      <div class="item slider__main-item">
+        <img src="img/slider-pic-2.jpg" alt="">
+        <p class="slider__main-item-text">Наша компания занимается производством и продажей металлической сетки всех типов и размеров.</p>
+      </div>
+      <div class="item slider__main-item">
+        <img src="img/slider-pic-3.jpg" alt="">
+        <p class="slider__main-item-text">Наша компания занимается производством и продажей металлической сетки всех типов и размеров.</p>
+      </div>
+    </div>
+  </section>
+  <section class="title-section">Наша продукция</section>
+  <div class="products-card__wrapper">
+    <section class="products-card">
+      <div class="products-card__item">
+        <div class="products-card__item-image-wrapper">
+          <img src="img/product-card-1.jpg" alt="" class="products-card__item-image">
+        </div>
+        <h3 class="products-card__item-title">Пространственные арматурные каркасы</h3>
+        <p class="products-card__item-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eaque, eveniet sint aliquid hic harum odio voluptatum fugiat provident, voluptate.</p>
+      </div>
+      <div class="products-card__item">
+        <div class="products-card__item-image-wrapper">
+          <img src="img/product-card-1.jpg" alt="" class="products-card__item-image">
+        </div>
+        <h3 class="products-card__item-title">Пространственные арматурные каркасы</h3>
+        <p class="products-card__item-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eaque, eveniet sint aliquid hic harum odio voluptatum fugiat provident, voluptate.</p>
+      </div>
+      <div class="products-card__item">
+        <div class="products-card__item-image-wrapper">
+          <img src="img/product-card-1.jpg" alt="" class="products-card__item-image">
+        </div>
+        <h3 class="products-card__item-title">Пространственные арматурные каркасы</h3>
+        <p class="products-card__item-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eaque, eveniet sint aliquid hic harum odio voluptatum fugiat provident, voluptate.</p>
+      </div>
+    </section>
+  </div>
+  <section class="title-section title-section--grey">Фотогалерея</section>
+  <div class="gallery__wrapper">
+    <section class="gallery">
+      <div class="owl-carousel owl-theme gallery__main">
+        <div class="item galley__main-item">
+          <img src="img/gallery-pic-1.jpeg" alt="">
+        </div>
+        <div class="item gallery__main-item">
+          <img src="img/gallery-pic-2.jpg" alt="">
+        </div>
+        <div class="item gallery__main-item">
+          <img src="img/gallery-pic-2.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="title-section">Контакты</section>
+  <section class="contacts">
+    <div class="contacts__map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.6052941541398!2d37.57348541603017!3d55.41723638046494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aa80cfbeaf3e5%3A0x7c7737eedd24afc7!2z0YPQuy4g0J7RgNC00LbQvtC90LjQutC40LTQt9C1LCAyMywg0J_QvtC00L7Qu9GM0YHQuiwg0JzQvtGB0LrQvtCy0YHQutCw0Y8g0L7QsdC7LiwgMTQyMTAz!5e0!3m2!1sru!2sru!4v1527024718322" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <div class="page-footer__wrapper">
+    <footer class="page-footer">© 2003 – 2018 sp-metiz</footer>
+  </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/settings.min.js"></script>
 
 </html>

@@ -1,0 +1,43 @@
+.page-header{
+  &__top{
+    @extend %container;
+    @extend %grid-padding;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    color: #333;
+    &-logo{
+      font-size: 48px;
+      text-transform: uppercase;
+      color: #5276A4;
+    }
+    &-contacts{
+      flex-grow: 2;
+      display: flex;
+      justify-content: space-around;
+      margin-top: auto;
+      margin-bottom: auto;
+      img{
+        width: 20px;
+        transform: translateY(3px);
+        margin-right: 8px;
+      }
+      a{
+        text-decoration: none;
+        color: #333;
+      }
+    }
+  }
+  &__bottom{
+    &-wrapper{
+      background-color: rgb(238, 238, 238);
+    }
+    @extend %container;
+    @extend %grid-padding;
+  }
+}
+@media #{$tablet-widths} {
+  header {
+    background-color: midnightblue;
+  }
+}
