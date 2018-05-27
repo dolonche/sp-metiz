@@ -4,13 +4,14 @@
     &-item {
       position: relative;
       img{
-        filter: blur(3px);
+//        filter: blur(1px);
       }
       &-text {
         position: absolute;
         margin: 0;
         padding: 0;
         font-size: 35px;
+        font-weight: 100;
         color: #fff;
         left: 10%;
         top: 50%;

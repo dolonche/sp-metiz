@@ -1,0 +1,32 @@
+.price {
+  @extend %container;
+  @extend %grid-padding;
+  text-align: center;
+  &__link {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    &-image {
+      height: 400px;
+      width: auto;
+      position: relative;
+      transition: 0.4s all;
+    }
+    &::after {
+      content: "Подробнее";
+      @extend %center;
+      background-color: #5276A4;
+      padding: 10px;
+      color: #fff;
+      border-radius: 4px;
+      opacity: 0;
+      transition: 0.4s all;
+    }
+    &:hover &-image {
+      filter: blur(4px);
+    }
+    &:hover::after{
+      opacity: 1;
+    }
+  }
+}
