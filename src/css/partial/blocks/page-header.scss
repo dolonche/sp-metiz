@@ -86,7 +86,27 @@
 }
 
 @media #{$tablet-widths} {
-  header {
-    background-color: midnightblue;
+  .page-header {
+    &__top {
+      font-size: 14px;
+      &-logo {
+        font-size: 30px;
+        &-sub {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$mobile-widths} {
+  .page-header {
+    &__top {
+      &-contacts,
+      &-mail,
+      &-address {
+        display: none;
+      }
+    }
   }
 }

@@ -8,3 +8,11 @@
     line-height: 36px;
   }
 }
+@media #{$mobile-widths}{
+  .use-building{
+    &__content{
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+}

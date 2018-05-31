@@ -3,8 +3,8 @@
   &__main {
     &-item {
       position: relative;
-      img{
-//        filter: blur(1px);
+      img {
+        //        filter: blur(1px);
       }
       &-text {
         position: absolute;
@@ -19,21 +19,54 @@
       }
     }
   }
-  .slider__main.owl-theme.owl-carousel .owl-dots{
+  .slider__main.owl-theme.owl-carousel .owl-dots {
     position: absolute;
     margin-top: 0;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    button.owl-dot{
+    button.owl-dot {
       background-color: transparent;
-      span{
+      span {
         width: 15px;
         height: 15px;
       }
-      &.active{
-        span{
+      &.active {
+        span {
           background-color: #5876A0;
+        }
+      }
+    }
+  }
+}
+
+@media #{$tablet-widths} {
+  .slider {
+    &__main {
+      &-item {
+        &-text {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$mobile-widths} {
+  .slider {
+    &__main {
+      &-item {
+        &-text {
+          font-size: 12px;
+        }
+      }
+    }
+    .slider__main.owl-theme.owl-carousel .owl-dots {
+      button.owl-dot {
+        span {
+          transform: translateY(10px);
+          width: 10px;
+          height: 10px;
         }
       }
     }

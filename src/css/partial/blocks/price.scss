@@ -30,3 +30,11 @@
     }
   }
 }
+@media #{$mobile-widths}{
+  .price{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}

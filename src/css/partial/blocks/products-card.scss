@@ -29,3 +29,10 @@
     }
   }
 }
+@media #{$mobile-widths}{
+  .products-card{
+    &__item{
+       width: 100%;
+    }
+  }
+}

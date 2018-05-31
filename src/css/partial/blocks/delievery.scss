@@ -18,3 +18,20 @@
     font-size: 24px;
   }
 }
+@media #{$tablet-widths}{
+  .delievery{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+@media #{$mobile-widths}{
+  .delievery{
+    &__text{
+      font-size: 16px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}

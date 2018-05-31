@@ -61,10 +61,4 @@
 }
 
 @media #{$mobile-widths} {
-  .owl-theme .owl-nav {
-    text-align: left;
-  }
-  .owl-carousel .owl-item.active{
-    width: 260px !important;
-  }
 }
