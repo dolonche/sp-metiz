@@ -33,3 +33,8 @@
     }
   }
 }
+@media #{$mobile-widths}{
+  .about{
+    width: 100%;
+  }
+}

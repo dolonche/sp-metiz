@@ -10,6 +10,7 @@
 }
 @media #{$mobile-widths}{
   .use-building{
+    width: 100%;
     &__content{
       font-size: 22px;
       line-height: 28px;

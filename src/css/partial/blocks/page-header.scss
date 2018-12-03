@@ -101,7 +101,11 @@
 
 @media #{$mobile-widths} {
   .page-header {
+    &__bottom{
+      width: 100%;
+    }
     &__top {
+      width: 100%;
       &-contacts,
       &-mail,
       &-address {
